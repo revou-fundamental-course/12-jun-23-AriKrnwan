@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: #ececec;
+    width: 600px;
+    height: 650px;
+    border-radius: 16px;
+}
+
+.form {
+    padding: 15px 25px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box-input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.box-input label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box-input input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.buttons {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    width: 30%;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.buttons .konversi {
+    background-color: #617A55;
+    color: #fff;
+}
+
+.buttons .konversi:hover {
+    background-color: #6d8b60;
+}
+
+.buttons .reset {
+    background-color: #CD1818;
+    color: #fff;
+}
+
+.buttons .reset:hover {
+    background-color: #e21b1b;
+}
+
+.buttons .reverse {
+    background-color: #0A6EBD;
+    color: #fff;
+}
+
+.buttons .reverse:hover {
+    background-color: #2d88ce;
+}
+
+a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #303030;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    background-color: #303030;
+    width: 100%;
+    height: 0.5px;
+    margin: 5px 0 10px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.explanation p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.explanation p span {
+    font-size: 16px;
+    font-style: italic;
+}

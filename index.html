@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Konversi suhu</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <h2>Konversi Suhu</h2>
+            <p>Masukkan suhu derajat Celcius (°C) ke kotak di bawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).</p>
+            <div class="box-input">
+                <label for="">Celcius (°C): </label>
+                <input type="number" id="inputCelsius" placeholder="Masukkan suhu dalam Celsius" required>
+            </div>
+            <div class="buttons">
+                <button onclick="convertToCelsius()" class="konversi">Konversi</button>
+                <button onclick="resetInput()" class="reset">Reset</button>
+                <button class="reverse">Reverse</button>
+            </div>
+            <div class="box-input">
+                <label for="">Fahrenheit (°F): </label>
+                <input type="" id="result" readonly>
+            </div>
+            <div class="box-input">
+                <label for="">Cara Kalkulasi: </label>
+                <input type="text" id="cara" readonly>
+            </div>
+            <a href="#">Fahrenheit ke Celsius</a>
+            <h3>Cara Konversi dari Celsius (°C) ke Fahrenheit (°F)</h3>
+            <div class="line"></div>
+            <div class="explanation">
+                <p>Suhu <span>S</span> dalam derajat Fahrenheit (°F) sama dengan suhu <span>S</span> dalam derajat Celsius (°C) kali 9/5 tambah 32.</p>
+                <p><span>S</span> (°F) = (<span>S</span> (°C) &times; 9/5) &plus; 32</p>
+                <p>atau</p>
+                <p><span>S</span> (°F) = (<span>S</span> (°C) &times; 1.8) &plus; 32</p>
+            </div>
+
+            <script src="javascript/script.js"></script>
+        </div>
+    </div>
+</body>
+</html>
